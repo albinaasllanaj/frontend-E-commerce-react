@@ -9,9 +9,8 @@ export const Navbar = () => {
     <div className='navbar'>
         <div className="nav-logo">
             <img src={logo} alt="" />
-            <p>ShOPPER</p>
+            <p>SHOPPER</p>
         </div>
-        <div>
             <ul className='nav-menu'>
                 <li>Shop</li>
                 <li>Men</li>
@@ -21,8 +20,7 @@ export const Navbar = () => {
             <div className="nav-login-cart">
                 <button>Login</button>
                 <img src={cart_icon} alt="" />
-            </div>
-        </div>
+            </div> 
     </div>
   )
 }
