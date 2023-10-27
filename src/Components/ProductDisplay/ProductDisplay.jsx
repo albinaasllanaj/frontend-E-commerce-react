@@ -30,11 +30,8 @@ const ProductDisplay = (props) => {
                 <p>(122)</p>
             </div>
             <div className="productdisplay-right-prices">
-                <div className="productdisplay-right-prices-old">
-                    ${product.old_price}
-                </div>
-                <div className="productdisplay-right-prices-new">
-                    ${product.new_price}
+                <div className="productdisplay-right-prices-old"> ${product.old_price} </div>
+                <div className="productdisplay-right-prices-new"> ${product.new_price} </div>
                 </div>
                 <div className="productdisplay-right-description">
                     A lightweight, knitted pullover shirt, close-fitting 
@@ -42,7 +39,7 @@ const ProductDisplay = (props) => {
                 </div>
                 <div className="productdisplay-right-size">
                     <h1>Select Size</h1>
-                    <div className="productdisplay-right-size">
+                    <div className="productdisplay-right-sizes">
                         <div>S</div>
                         <div>M</div>
                         <div>L</div>
@@ -57,7 +54,7 @@ const ProductDisplay = (props) => {
                 <p className='productdisplay-right-category'>
                     <span>Tag:</span> Modern, Latest 
                 </p>
-            </div>
+            
         </div>
     
     </div>
