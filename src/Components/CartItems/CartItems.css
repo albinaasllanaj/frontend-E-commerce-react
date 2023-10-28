@@ -136,12 +136,50 @@
         width: 10px; /* Adjust the size of the remove icon */
     }
 
+    .cartitems-total {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        padding-left: 190px;
+    }
+
     .cartitems-down{
-        align-items: center;
-        padding-left: 30px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
     }
     .cartitems-down h1 {
         text-align: center;
+    }
+
+    
+    .cartitems-promocode{
+        margin-top: 20px;
+    }
+
+    .cartitems-promobox {
+        width: 250px;
+        margin-top: 15px;
+        padding-left: 20px;
+        height: 28px;
+        align-items: center;
+        justify-content: center;
+       
+    }
+
+    .cartitems-promobox input {
+        width: 150px;
+        height: 25px;
+       
+    }
+    
+    .cartitems-promobox button {
+        width: 80px;
+        height: 25px;
+    
     }
 }
 
