@@ -33,3 +33,19 @@
     padding-bottom: 70px;
 
 }
+
+/* Media query for small screens */
+@media (max-width: 576px) {
+    .descriptionbox {
+        margin: 30px;
+    }
+
+    .descriptionbox-nav-box {
+        font-size: 14px;
+    }
+
+    .descriptionbox-description {
+        padding: 12px;
+        padding-bottom: 30px;
+    }
+}

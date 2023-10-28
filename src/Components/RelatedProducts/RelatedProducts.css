@@ -24,3 +24,20 @@
     display: flex;
     gap: 30px;
 }
+
+/* Media query for small screens */
+@media (max-width: 576px) {
+
+    .relatedproducts{
+        margin-bottom: 1700px;
+    }
+
+    .relatedproducts-item {
+        flex-direction: column; /* Stack related products vertically for smaller screens */
+        margin-top: 20px;
+    }
+
+    .relatedproducts h1 {
+        font-size: 28px; /* Further reduce the font size for very small screens */
+    }
+}
