@@ -83,3 +83,44 @@ font-weight: 500;
     font-size: 14px;
 
 }
+
+/* Media query for small screens (e.g., mobile) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        padding: 10px;
+        padding-left: 0px;
+        padding-right: 50px;
+
+    }
+
+    .nav-menu {
+        gap: 20px;
+        font-size: 25px;
+        padding-top: 20px;
+
+    }
+
+    .nav-login-cart {
+        gap: 50px;
+        margin-top: 20px;
+    }
+}
+
+/* Media query for medium screens (e.g., tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .navbar {
+        padding: 12px;
+    }
+
+    .nav-menu {
+        gap: 30px;
+        font-size: 18px;
+        
+    }
+
+    .nav-login-cart {
+        gap: 30px;
+    }
+}

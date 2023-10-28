@@ -50,3 +50,44 @@
     justify-content: flex-end;
     padding-top: 50px;
 }
+
+/* Media query for small screens (e.g., mobile) */
+@media (max-width: 768px) {
+    .offers {
+        width: 90%; /* Adjust width to fit smaller screens */
+        height: auto; /* Let content determine the height */
+        padding: 0 20px; /* Reduce padding for smaller screens */
+        margin-bottom: 90px; /* Adjust margin for spacing */
+        margin-top: 20px;
+
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center horizontally */
+    }
+
+    .offers-left h1 {
+        font-size: 40px; /* Adjust font size */
+    }
+
+    .offers-left p {
+        font-size: 16px; /* Adjust font size */
+    }
+
+    .offers-left button {
+        width: 220px; /* Adjust button width */
+        height: 50px; /* Adjust button height */
+        font-size: 18px; /* Adjust font size */
+        margin-top: 20px; /* Adjust margin-top */
+    }
+
+    .offers-right {
+        display: none; /* Hide right content on small screens */
+    }
+}
+
+/* Media query for medium screens (e.g., tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .offers-left h1 {
+        font-size: 60px; /* Adjust font size for medium screens */
+    }
+}

@@ -104,3 +104,64 @@
 .productdisplay-right-category span {
     font-weight: 600;
 }
+
+/* Media query for small screens (e.g., mobile) */
+@media (max-width: 768px) {
+    .productdisplay {
+        flex-direction: column; /* Stack items vertically */
+        margin: 0 20px; /* Adjust margin for small screens */
+    }
+
+    .productdisplay-left,
+    .productdisplay-img-list,
+    .productdisplay-main-img,
+    .productdisplay-right {
+        margin: 0; /* Remove margin for small screens */
+    }
+
+    .productdisplay-img-list {
+        width: 50px;
+        height: 30px;
+    }
+
+    .productdisplay-left {
+        gap: 10px; /* Reduce the gap between elements */
+    }
+
+    .productdisplay-main-img {
+        width: 100%; /* Use full width for the main image */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .productdisplay-right h1 {
+        font-size: 30px; /* Adjust font size */
+    }
+
+    .productdisplay-right-star {
+        font-size: 14px; /* Adjust font size */
+    }
+
+    .productdisplay-right-prices {
+        font-size: 20px; /* Adjust font size */
+    }
+
+    .productdisplay-right-size h1 {
+        font-size: 18px; /* Adjust font size */
+    }
+
+    .productdisplay-right-sizes div {
+        padding: 14px 20px; /* Adjust padding for size options */
+    }
+
+    .productdisplay-right button {
+        padding: 15px 30px; /* Adjust padding for the button */
+        font-size: 14px; /* Adjust font size */
+    }
+}
+
+/* Media query for medium screens (e.g., tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .productdisplay {
+        flex-direction: row; /* Revert to original layout for medium screens */
+    }
+}

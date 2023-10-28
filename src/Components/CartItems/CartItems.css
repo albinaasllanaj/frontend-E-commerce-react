@@ -109,3 +109,46 @@
     color: white;
     cursor: pointer;
 }
+
+/* Media query for small screens (e.g., mobile) */
+@media (max-width: 768px) {
+    .cartitems {
+        margin: 20px; /* Adjust margin for small screens */
+    }
+
+    .cartitems-format-main {
+        display: grid;
+        grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+        font-size: 15px;
+        gap: 10px; /* Adjust gap for small screens */
+        
+    }
+
+    .item-name {
+        font-size: 10px;
+    }
+
+    .carticon-product-icon {
+        height: 40px; /* Adjust the height of the product icon */
+    }
+
+    .carticon-remove-icon {
+        width: 10px; /* Adjust the size of the remove icon */
+    }
+
+    .cartitems-down{
+        align-items: center;
+        padding-left: 30px;
+    }
+    .cartitems-down h1 {
+        text-align: center;
+    }
+}
+
+/* Media query for medium screens (e.g., tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .cartitems {
+        margin: 50px; /* Adjust margin for medium screens */
+    }
+
+}

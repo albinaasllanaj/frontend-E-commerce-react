@@ -41,3 +41,39 @@
     font-weight: 500;
     
 }
+
+/* Media query for small screens (e.g., mobile) */
+@media (max-width: 768px) {
+    .shopcategory-banner {
+        width: 100%; /* Adjust width to fit smaller screens */
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .shopcategory-indexSort {
+        margin: 0 20px; /* Reduce margin for small screens */
+    }
+
+    .shopcategory-sort {
+        padding: 10px 15px; /* Adjust padding */
+    }
+
+    .shopcategory-products {
+        margin: 20px 20px; /* Adjust margin */
+        grid-template-columns: 1fr; /* Display items in a single column */
+    }
+
+    .shopcategory-loadmore {
+        width: 100%; /* Use full width for the button */
+    }
+}
+
+/* Media query for medium screens (e.g., tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .shopcategory-banner {
+        width: 100%; /* Adjust width for medium screens */
+    }
+
+    .shopcategory-indexSort {
+        margin: 0 50px; /* Adjust margin for medium screens */
+    }
+}

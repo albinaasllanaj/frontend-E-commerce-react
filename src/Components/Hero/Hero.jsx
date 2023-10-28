@@ -1,6 +1,5 @@
 import React from 'react'
 import './Hero.css'
-import hand_icon from '../Assets/hand_icon.png'
 import arrow_icon from '../Assets/arrow.png'
 import hero_image from '../Assets/hero_image.png'
 
@@ -8,14 +7,14 @@ import hero_image from '../Assets/hero_image.png'
   return (
     <div className='hero'>
         <div className="hero-left">
-            <h2>New Arrivals Only</h2>
-            <div>
+            <h2>New Arrivals</h2>
+            <div className='heading-main'>
                 <div className="hero-hand-icon">
-                <p>new</p>
-                <img src={hand_icon} alt="" />
+                <p className='heading'>New</p>
+                
             </div>
-            <p>Collections</p>
-            <p>for everyone</p>
+            <p className='heading'>Collections</p>
+            <p className='heading'>For Everyone</p>
             </div>
             
             <div className="hero-latest-btn">

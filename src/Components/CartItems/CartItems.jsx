@@ -11,8 +11,8 @@ import remove_icon from '../Assets/cart_cross_icon.png'
         <p>Products</p>
         <p>Title</p>
         <p>Price</p>
-        <p>Total</p>
         <p>Quantity</p>
+        <p>Total</p>
         <p>Remove</p>
         </div>     
         <hr />
@@ -22,7 +22,7 @@ import remove_icon from '../Assets/cart_cross_icon.png'
             return <div>
             <div className="cartitems-format cartitems-format-main">
                 <img src={e.image} alt="" className='carticon-product-icon' />
-                <p>{e.name}</p>
+                <p className='item-name'>{e.name}</p>
                 <p>${e.new_price}</p>
                 <button className='cartitems-quantity'>{cartItems[e.id]}</button>
                 <p>${e.new_price*cartItems[e.id]}</p>

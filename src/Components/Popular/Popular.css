@@ -25,3 +25,37 @@
     gap: 30px;
     
 }
+
+/* Media query for small screens (e.g., mobile) */
+@media (max-width: 768px) {
+    .popular {
+        height: auto; /* Allow content to determine height */
+        padding: 20px; /* Add padding for spacing */
+    }
+
+    .popular h1 {
+        font-size: 30px; /* Adjust font size */
+    }
+
+    .popular hr {
+        width: 150px; /* Adjust width */
+        height: 4px;  /* Adjust height */
+    }
+
+    .popular-item {
+        margin-top: 30px; /* Adjust margin */
+        flex-direction: column; /* Stack items vertically */
+    }
+}
+
+/* Media query for medium screens (e.g., tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .popular h1 {
+        font-size: 40px; /* Adjust font size */
+    }
+
+    .popular hr {
+        width: 180px; /* Adjust width */
+        height: 5px;  /* Adjust height */
+    }
+}
